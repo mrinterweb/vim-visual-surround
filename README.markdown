@@ -21,15 +21,20 @@ expected vim behavior. Some of the keymapping override default movement behavior
 Installation
 ------------
 
-If you don't have a preferred installation method, I recommend
-installing [pathogen.vim](https://github.com/tpope/vim-pathogen), and
-then simply copy and paste:
+I like to use Vundler to manage plugins in vim https://github.com/gmarik/vundle.
+Vundler is like ruby's bundler gem but for vim.
 
-    cd ~/.vim/bundle
-    git clone git://github.com/mrinterweb/vim-visual-surround.git
+With vundler, add the following to your ~/.vimrc
 
-Once help tags have been generated, you can view the manual with
-`:help visual-surround`.
+    Bundle 'mrinterweb/vim-visual-surround.git'
+
+Then run `:BundleInstall`
+That's it.
+
+Usage
+------
+
+Select some text in visual mode, then hit one of the keys you want to surround the text.
 
 License
 -------
