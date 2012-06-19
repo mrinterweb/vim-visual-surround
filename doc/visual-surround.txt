@@ -1,0 +1,13 @@
+visual-surround.txt  Very simple plugin to surround visually selected content 
+with opening and closing characters for the characters: ',",{,},[,],(,)
+
+Author: Sean McCleary
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                     wrap_visual_selection
+
+This plugin is intended to replicate the functionality found in other editors
+that automatically wrap selected text in matched opening and closing characters.
+
+This plugin was influenced by Tim Pope's vim-surround. vim-surround is much more
+feature rich than this plugin.
