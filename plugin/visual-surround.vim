@@ -1,3 +1,8 @@
+" visual-surround.vim - Visual Surround
+" Author: Sean McCleary
+" Version: 0.01
+" GetLatestVimScripts: 1697 1 :AutoInstall: surround.vim
+
 if exists("g:loaded_visual_surround") || &cp || v:version < 700
   finish
 endif
