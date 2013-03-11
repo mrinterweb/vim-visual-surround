@@ -36,6 +36,11 @@ Usage
 
 Select some text in visual mode, then hit one of the keys you want to surround the text.
 
+What does not work
+------------------
+
+* Multi-line surrounds do not work yet.
+
 License
 -------
 
