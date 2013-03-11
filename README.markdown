@@ -40,6 +40,7 @@ What does not work
 ------------------
 
 * Multi-line surrounds do not work yet.
+* Other stuff. This is pretty raw. Take warning.
 
 License
 -------
